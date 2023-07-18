@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7175DDC6-350E-C16C-D43E-B3BBC993362D}</ProjectGuid>
+    <ProjectGuid>{BD62E3E0-BF62-23D3-BF1D-45272C0C0CA8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\movement.cs" />
+    <Compile Include="Assets\Scripts\shoot.cs" />
+    <Compile Include="Assets\Scripts\bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
