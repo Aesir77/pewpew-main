@@ -17,19 +17,18 @@ public class bullet : MonoBehaviour
         transform.Translate(Vector2.right * bulletspeed * Time.deltaTime);
         
     }
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
+  private void OnTriggerEnter2D(Collider2D collision)
+    
+  {
+        if (collision.gameObject.tag == "Zombie")
         {
-            if (collision.gameObject.tag == "Zombie")
-                Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.tag == "Border")
-        {
+            Destroy(collision.gameObject);
             Destroy(gameObject);
         }
-
-
-
+       
     }
+
+
+  
     
 }
